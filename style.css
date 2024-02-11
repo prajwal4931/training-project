@@ -1,0 +1,18 @@
+.top_container{
+    margin:10px;
+    display:flex;
+    flex-direction: row;
+}
+@media(max-width:800px)
+{
+    .top_container{
+        flex-direction: column;
+    }
+}
+.container{
+    background-color: violet;
+    padding: 20px;
+}
+.top_container .container{
+    margin: 10px;  
+}
